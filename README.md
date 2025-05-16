@@ -1,18 +1,3 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Use an interface when you want to define a common behavior for unrelated classes, like flying or driving, and don’t need to share code—just method names.
+Interfaces are great for adding capabilities and allow multiple inheritance. Use an abstract class when classes are closely related and share common code,
+fields, or constructors. Abstract classes are best when there’s an “is-a” relationship and you want to provide default behavior that subclasses can build on.
